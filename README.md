@@ -1,5 +1,7 @@
 # SimplePay Fizetési Gateway a GiveWP Donations Plugin-hoz
 
+- Kompatibilitás eddig: WP 5.8
+
 ## Bevezető
 
 A SimplePay API v2 használatával lett implementálva.
