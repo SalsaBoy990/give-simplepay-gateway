@@ -1,0 +1,59 @@
+@charset "utf-8";
+/*
+ Theme Name:   THEME NAME Child
+ Theme URI:    http://example.net/
+ Description:  THEME NAME Theme
+ Author:       John Doe
+ Author URI:   http://example.net/
+ Template:     xxxx
+ Version:      1.0.0
+ Tags:         inheritable theme options
+ Text Domain:  xxxx
+*/
+
+/* Theme customization starts here
+-------------------------------------------------------------- */
+
+/* A SimplePay linkek formattálása */
+#give-donation-level-button-wrap a.give-btn.give-donation-level-btn {
+  display: inline-block !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  padding: 0 2em !important;
+  height: 45px !important;
+  line-height: 45px !important;
+  -webkit-box-sizing: content-box !important;
+  -ms-box-sizing: content-box !important;
+  box-sizing: content-box !important;
+  border-width: 2px !important;
+  border-style: solid !important;
+  color: var(--theme-color-alter_dark);
+  border-color: var(--theme-color-alter_dark);
+  background-color: #f5f1fa;
+  -webkit-transition: color 0.3s ease, background-color 0.3s ease,
+    border-color 0.3s ease !important;
+  -ms-transition: color 0.3s ease, background-color 0.3s ease,
+    border-color 0.3s ease !important;
+  transition: color 0.3s ease, background-color 0.3s ease,
+    border-color 0.3s ease !important;
+  border-radius: 40px;
+}
+#give-donation-level-button-wrap a.give-btn.give-donation-level-btn:hover,
+#give-donation-level-button-wrap a.give-btn.give-donation-level-btn:focus,
+#give-donation-level-button-wrap a.give-btn.give-donation-level-btn:active {
+  color: white;
+  border-color: #fb0 !important;
+  background-color: #fb0 !important;
+}
+
+/* A SimplePay link wrapper formattálása */
+ul.give-donation-levels-wrap.give-list-inline {
+  margin-top: 15px !important;
+  margin-bottom: 15px !important;
+}
+h6.give-donation-levels-header {
+  margin-bottom: 2px !important;
+}
+div#give-payment-mode-wrap {
+  margin-left: -30px;
+}
